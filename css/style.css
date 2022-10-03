@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,10 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
-    color: #EEEEEE;
+}
+
+body {
+    background-color: #70c6c7;
 }
 
 .curriculum {
@@ -19,13 +24,13 @@
 .left-section {
     grid-column: span 3;
     height: 100%;
-    background-color: #999999;
+    background-color: #006433;
 }
 
 .right-section {
     grid-column: span 7;
     height: 100%;
-    background-color: #424A50;
+    background-color: #3C935D;
     border-radius: 0px 40px 0px 0px;
 }
 
@@ -37,31 +42,33 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    border-bottom: 2px solid #EEEEEE;
+    border-bottom: 2px solid #3C935D;
 }
 
 .profile .profile-image {
-    align-self: center;
     width: 100%;
     border-radius: 100%;
-    max-height: 250px;
-    max-width: 250px;
+    border: 8px solid #1B2631;
 }
 
 .name {
-    align-self: center;
-    max-width: fit-content;
+    color: #D6DBDF;
+    font-size: 30px;
     letter-spacing: 2px;
     text-transform: uppercase;
-    margin: 10px 0;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0;
 }
 
 .profession {
-    font-size: 14px;
-    align-self: center;
+    color: #FDB44B;
+    font-size: 20px;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 10px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    padding-bottom: 1rem;
 }
 
 .contact-info {
@@ -69,7 +76,12 @@
 }
 
 .left-title {
+    color: #FDB44B;
     font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
 }
 
 .contact-info ul {
@@ -77,34 +89,52 @@
 }
 
 .contact-info ul li i {
-    padding-right: 0.25rem;
-    font-size: 17px;
+    padding-right: .2rem;
+    font-size: 15px;
+    color: #2E86C1;
 }
 
-.contact-info ul li,
 .contact-info ul li a {
     font-size: 12px;
     padding: .4rem 0;
+    color: #D6DBDF;
 }
 
 .skills{
     padding-top: 1rem;
 }
 
-.skills ul {
+.skills ul{
     padding-top: 1rem;
-    font-size: 15px;
 }
+
 .skills ul li {
-    padding: .2rem;
+    padding: .4rem 0;
+    color: #d6dbdfaf;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
 }
 
 .right-section-contents {
+    font-size: 16px;
+    color: #d6dbdfaf;
+    letter-spacing: 1px;
     padding: 2rem 2rem;
 }
 
 .right-title {
-    font-size: 25px;
+    color: #D6DBDF;
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+    position: relative;
 }
 
 .gap {
@@ -113,6 +143,9 @@
 
 .about-me-contents {
     font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 2rem;
+    color: #F1F8FD;
 }
 
 .experience-contents,
@@ -121,31 +154,45 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
+    color: #F1F8FD;
 }
 
 .exp-company,
 .education-school,
 .awards-company {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #FDB44B;
+    padding-bottom: .4rem;
 }
 
 .exp-period,
 .education-period,
 .awards-period {
-    font-size: 15px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 2rem;
 }
 
 .job-position,
 .education-subject,
 .awards-name {
-    font-size: 18px;
+    font-size: 25px;
     font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #FDB44B;
+    padding-bottom: .4rem;
 }
 
 .job-description,
 .education-description,
 .awards-description {
     font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    border-left: 3px solid #A5A3A3;
     padding-left: 5px;
 }
