@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #70c6c7;
+    background-color: #1B2631;
 }
 
 .curriculum {
@@ -53,7 +53,7 @@ body {
 
 .name {
     color: #D6DBDF;
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 2px;
     text-transform: uppercase;
     text-align: center;
@@ -63,7 +63,7 @@ body {
 
 .profession {
     color: #FDB44B;
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 2px;
@@ -88,34 +88,70 @@ body {
     padding-top: 1rem;
 }
 
-.contact-info ul li i {
-    padding-right: .2rem;
-    font-size: 15px;
-    color: #2E86C1;
+.contact-info ul li {
+    padding: .2rem 0;
 }
 
-.contact-info ul li a {
-    font-size: 12px;
-    padding: .4rem 0;
+.contact-info ul li i {
+    font-size: 15px;
     color: #D6DBDF;
 }
 
-.skills{
+.contact-info ul li a {
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #D6DBDF;
+}
+
+.skills {
     padding-top: 1rem;
 }
 
-.skills ul{
+.skills ul {
     padding-top: 1rem;
 }
 
 .skills ul li {
-    padding: .4rem 0;
-    color: #d6dbdfaf;
+    padding: .2rem 0;
+    color: #D6DBDF;
     font-size: 15px;
     letter-spacing: 1px;
     display: flex;
     align-items: center;
     text-transform: uppercase;
+    font-weight: 500;
+}
+
+.skills ul li i,
+.skills ul li span {
+    padding-right: .3rem;
+}
+
+#html {
+    color: #F16529;
+}
+
+#css {
+    color: #33A9DC;
+}
+
+#js {
+    color: #F0DB4F;
+}
+
+#react {
+    color: #61DAFB;
+}
+
+#git {
+    color: #F34F29;
+}
+
+#vscode::before{
+    content: url(https://tinyurl.com/vs-code-icon); 
+    display: inline-block;
+    width: 15px;
+    height: 15px;
 }
 
 .right-section-contents {
@@ -126,7 +162,7 @@ body {
 }
 
 .right-title {
-    color: #D6DBDF;
+    color: #FDB44B;
     font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
