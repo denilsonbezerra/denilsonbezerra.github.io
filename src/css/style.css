@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
     margin: 0;
@@ -7,10 +7,15 @@
     list-style: none;
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
+    color: #F1F8FD;
 }
 
 body {
     background-color: #1B2631;
+}
+
+h1, h2, h3 {
+    font-family: 'DM Serif Text', serif;
 }
 
 .curriculum {
@@ -18,19 +23,19 @@ body {
     width: 80%;
     margin: 2rem auto;
     display: grid;
-    grid-template-columns: repeat(10, 1fr);
+    grid-template-columns: repeat(11, 1fr);
 }
 
 .left-section {
     grid-column: span 3;
     height: 100%;
-    background-color: #006433;
+    background-color: #0D1117;
 }
 
 .right-section {
-    grid-column: span 7;
+    grid-column: span 8;
     height: 100%;
-    background-color: #3C935D;
+    background-color: #161B22;
     border-radius: 0px 40px 0px 0px;
 }
 
@@ -42,7 +47,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 100%;
-    border-bottom: 2px solid #3C935D;
+    border-bottom: 2px solid #1B2631;
 }
 
 .profile .profile-image {
@@ -52,7 +57,6 @@ body {
 }
 
 .name {
-    color: #D6DBDF;
     font-size: 25px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -76,7 +80,6 @@ body {
 }
 
 .left-title {
-    color: #FDB44B;
     font-size: 20px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -94,13 +97,11 @@ body {
 
 .contact-info ul li i {
     font-size: 15px;
-    color: #D6DBDF;
 }
 
 .contact-info ul li a {
     font-size: 11px;
     letter-spacing: 1px;
-    color: #D6DBDF;
 }
 
 .skills {
@@ -113,7 +114,6 @@ body {
 
 .skills ul li {
     padding: .2rem 0;
-    color: #D6DBDF;
     font-size: 15px;
     letter-spacing: 1px;
     display: flex;
@@ -156,13 +156,11 @@ body {
 
 .right-section-contents {
     font-size: 16px;
-    color: #d6dbdfaf;
     letter-spacing: 1px;
     padding: 2rem 2rem;
 }
 
 .right-title {
-    color: #FDB44B;
     font-size: 40px;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -181,7 +179,6 @@ body {
     font-size: 18px;
     letter-spacing: 1px;
     line-height: 2rem;
-    color: #F1F8FD;
 }
 
 .experience-contents,
@@ -190,7 +187,6 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 2rem;
-    color: #F1F8FD;
 }
 
 .exp-company,
@@ -200,7 +196,6 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
     padding-bottom: .4rem;
 }
 
@@ -215,11 +210,10 @@ body {
 .job-position,
 .education-subject,
 .awards-name {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #FDB44B;
     padding-bottom: .4rem;
 }
 
